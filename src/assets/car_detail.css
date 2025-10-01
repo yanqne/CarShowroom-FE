@@ -1,0 +1,35 @@
+/* car-detail.css */
+.navbar-brand { letter-spacing: .5px; }
+
+.detail-hero {
+  background: linear-gradient(135deg, #f8f9fa 0%, #eef2f7 100%);
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+.top-20 { top: 20px; }
+.color-dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid rgba(0,0,0,.1);
+}
+.color-dot:focus { outline: 2px solid #0d6efd; outline-offset: 2px; }
+
+.carousel .carousel-item img {
+  height: 420px;
+  object-fit: cover;
+}
+@media (max-width: 991.98px) {
+  .carousel .carousel-item img { height: 300px; }
+}
+
+.footer {
+  background: #0b0f14;
+  color: #b9c1cc;
+}
+.footer a {
+  color: #b9c1cc;
+  text-decoration: none;
+}
+.footer a:hover { color: #fff; }
